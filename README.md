@@ -1,17 +1,13 @@
 # REINFORCE CartPole Project
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MMahdiSetak/CartPoleRL/blob/main/LICENSE)
 
-## Description
+Harness the power of reinforcement learning to master the classic CartPole balancing challenge.
 
-The REINFORCE CartPole Project is a reinforcement learning endeavor focused on mastering the classic CartPole balancing
-task. Utilizing the REINFORCE algorithm, an agent learns to balance a pole on a moving cart. The agent's learning
-process and decision-making are powered by a neural network. All training results, including hyperparameter tuning, are
-visualized and logged with TensorBoard, providing insights into the learning journey.
+## Description
+The project applies the REINFORCE algorithm, enabling an agent to adeptly balance a pole on a cart. Underpinned by a neural network, the agent evolves its capabilities, with all training advancements, including hyperparameter fine-tuning, elegantly visualized and logged via TensorBoard.
 
 ## Prerequisites
-
-- Python 3.x (developed with 3.10)
+- Python 3.x (tested on 3.10)
 - pip
 
 ## Installation
@@ -47,32 +43,29 @@ visualized and logged with TensorBoard, providing insights into the learning jou
 
 Visual insights into the project's performance:
 
-- **Hyperparameter Grid Search**:
+- **Hyperparameter Grid Search**:<br>
   ![Grid Search Results](./assets/images/grid search.png)
-- **Learning Curve** (Average of 10 runs):
+- **Learning Curve** (Average of 10 runs):<br>
   ![Average Learning Curve](./assets/images/10runs.png)
-- **Learning Process Visualization**:
+- **Learning Process Visualization**:<br>
   ![Learning Process GIF](./assets/gifs/learning_process.gif)
-- **Sample Learning Curve**:
+- **Sample Learning Curve**:<br>
   ![Sample Performance GIF](./assets/images/sample.png)
-- **Sample Performance**:
+- **Sample Performance**:<br>
   ![Sample Performance GIF](./assets/gifs/sample.gif)
 
 ## Models
-
 All trained models are diligently saved in the `assets/saved_models` directory. As an example, the model trained with a
 hidden layer of size 4 is available [here](./assets/saved_models/model_4.pth).
 
 ## Contributing
+Your contributions are welcomed:
 
-We welcome all contributions:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the Project.
+2. Establish your Feature Branch (`git checkout -b feature/AmazingFeature`).
+3. Commit the Changes (`git commit -m 'Introduce AmazingFeature'`).
+4. Push to the Branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
 ## License
-
-Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
+This project is licensed under the MIT License. Refer to [`LICENSE`](./LICENSE) for detailed information.
