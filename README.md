@@ -52,11 +52,11 @@ Visual insights into the project's performance:
 - **Learning Curve** (Average of 10 runs):
   ![Average Learning Curve](./assets/images/10runs.png)
 - **Learning Process Visualization**:
-  ![Learning Process GIF](./assets/gifs/learning_process.webm)
+  ![Learning Process GIF](./assets/gifs/learning_process.gif)
 - **Sample Learning Curve**:
   ![Sample Performance GIF](./assets/images/sample.png)
 - **Sample Performance**:
-  ![Sample Performance GIF](./assets/gifs/sample.webm)
+  ![Sample Performance GIF](./assets/gifs/sample.gif)
 
 ## Models
 
