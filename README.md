@@ -44,7 +44,7 @@ The project applies the REINFORCE algorithm, enabling an agent to adeptly balanc
 Visual insights into the project's performance:
 
 - **Hyperparameter Grid Search**:<br>
-  ![Grid Search Results](./assets/images/grid search.png)
+  ![Grid Search Results](./assets/images/grid_search.png)
 - **Learning Curve** (Average of 10 runs):<br>
   ![Average Learning Curve](./assets/images/10runs.png)
 - **Learning Process Visualization**:<br>
